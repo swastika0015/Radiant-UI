@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto:wght@500&display=swap');
+
+*{
+    margin:0; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+:root{
+    --primary-color: #41264F;
+    --secondary-color:#8890f8;
+    --tertiary-color: #e59db8;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --grey-color: #726f6f;
+
+}
+
+/*links*/
+a:link {
+    color: var(--black-color);
+    text-decoration: none;
+    }
+    a:visited {
+    color: var(--black-color);
+    text-decoration: none;
+    }
+    a:hover {
+    color: var(--black-color);
+    text-decoration: none;
+    }
+    a:active {
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+/*button*/
+.btn{
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: none;
+}
+.btn-primary{
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    font-size: 1rem;
+}
+.btn-primary a{
+    color: var(--primary-color);
+}
+
+.flex-flow-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flex-flow-column{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*nav bar*/
+.navbar{
+    background-color: var(--primary-color);
+    width: 100%;
+    font-size: large;
+}
+.nav-heading{
+    color: var(--secondary-color);
+    padding: 0.5rem;
+    padding-left: 1rem;
+}
+
+/*main section*/
+
+.container{
+    padding: 4rem;
+}
+.container-info{
+    width: 50%;
+    color: var(--secondary-color);
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.container-info h1{
+    padding: 1rem;
+    padding-bottom: 0rem;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.container-info p{
+    color: var(--grey-color);
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 1rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.btn-action{
+    margin: 1rem 
+}
+.container-img{
+    width: 46%;
+}
+.index-img{
+    width: 100%;
+}
