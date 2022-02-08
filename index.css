@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto:wght@400&display=swap');
 
 *{
     margin:0; 
@@ -52,12 +52,12 @@ a:link {
 
 .flex-flow-row{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
 }
 .flex-flow-column{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 /*nav bar*/
@@ -74,7 +74,7 @@ a:link {
 
 /*main section*/
 
-.container{
+.home-container{
     padding: 4rem;
 }
 .container-info{

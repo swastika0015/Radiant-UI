@@ -1,0 +1,121 @@
+body{
+    --alert-primary: #004085;
+    --alert-bg-primary: #cce5ff;
+    --alert-border-primary: #b8daff;
+
+    --alert-secondary: #7b15b6;
+    --alert-bg-secondary: #d9baeb;
+    --alert-border-secondary: #e1a6f0;
+
+    --alert-danger: #721c24;
+    --alert-bg-danger: #f8d7da;
+    --alert-border-danger: #f5c6cb;
+
+    --alert-success: #155724;
+    --alert-bg-success: #d4edda;
+    --alert-border-success:#c3e6cb;
+
+    --alert-warning: #856404;
+    --alert-bg-warning: #fff3cd;
+    --alert-border-warning: #ffeeba;
+
+    
+}
+.container{
+    padding: 1rem;
+    gap: 2rem;
+}
+.component-container{
+    padding: 2rem 4rem 2rem 2rem;
+}
+.component-details{
+    padding: 1rem;
+}
+.avatar-container{
+    flex-grow: 3;
+    flex-shrink: 1;
+}
+.alerts-examples{
+    gap: 2rem;
+}
+.alert{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+}
+.alert-primary{
+    color: var(--alert-primary);
+    background-color: var(--alert-bg-primary);
+    border-color: var(--alert-border-primary);
+}
+.alert-secondary{
+    color: var(--alert-secondary);
+    background-color: var(--alert-bg-secondary);
+    border-color: var(--alert-border-secondary) ;
+}
+.alert-secondary a{
+    font-size: large;
+    font-weight: 400;
+    color: var(--alert-primary);
+}
+.alert-success{
+    color: var(--alert-success);
+    background-color: var(--alert-bg-success);
+    border-color: var(--alert-border-success);   
+}
+.alert-danger{
+    color: var(--alert-danger);
+    background-color: var(--alert-bg-danger);
+    border-color: var(--alert-border-danger);    
+}
+.alert-warning{
+    color: var(--alert-warning);
+    background-color: var(--alert-bg-warning);
+    border-color: var(--alert-border-warning);   
+}
+
+
+/*sidebar*/
+.sidebar{
+    padding: 2rem;
+    border-right: 2px solid var(--primary-color);
+    align-items: center;
+    width: 17%;
+}
+.sidebar-heading{
+    padding: 1rem;
+}
+.component-items{
+    padding: 1rem;
+}
+.component-items:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+}
+.sidebar-heading:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+
+/*avatar*/
+.component-heading{
+    font-size: 3rem;
+    font-weight: 100;
+}
+.component-info{
+    font-size: 1.25rem;
+}
+
+/*iframe*/
+.iframe{
+    background-color: var(--primary-color);
+    width: 100%; 
+    height: 310px; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+    margin: 1rem;
+}
