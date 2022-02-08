@@ -17,9 +17,7 @@ body{
 
     --alert-warning: #856404;
     --alert-bg-warning: #fff3cd;
-    --alert-border-warning: #ffeeba;
-
-    
+    --alert-border-warning: #ffeeba;   
 }
 .container{
     padding: 1rem;
@@ -98,7 +96,7 @@ body{
 }
 
 
-/*avatar*/
+/*alert*/
 .component-heading{
     font-size: 3rem;
     font-weight: 100;
