@@ -31,12 +31,10 @@ body{
 .component-details{
     padding: 1rem;
 }
-.avatar-container{
-    flex-grow: 3;
-    flex-shrink: 1;
-}
+
 .alerts-examples{
     gap: 2rem;
+    margin-bottom: 2rem;
 }
 .alert{
     padding: 1rem;
