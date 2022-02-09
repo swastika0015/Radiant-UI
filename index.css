@@ -28,6 +28,7 @@ a:link {
     a:hover {
     color: var(--black-color);
     text-decoration: none;
+    cursor: pointer;
     }
     a:active {
     color: var(--black-color);
