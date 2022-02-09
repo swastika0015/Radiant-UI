@@ -1,11 +1,11 @@
 @import "../avatar/avatar.css";
 
 *{
-    --online-color: #108a2c;
-    --dnd-color: #a51d2b;
+    --online-color: #0ed43c;
+    --dnd-color: #c20d1f;
     --offline-color: #8f8f8f;
-    --away-color: #c9a711;
-    --icon-badge-color: #c40c1e;
+    --away-color: #ecc61d;
+    --icon-badge-color: #0415ff;
 }
 
 .avatar{
@@ -15,7 +15,9 @@
     border-radius: 50%;
     position: absolute;
     background-color: var(--icon-badge-color);
-    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .badge-container{
