@@ -18,6 +18,7 @@
     justify-content: center;
     display: flex;
     align-items: center;
+    border: 3px solid var(--white-color);
 }
 
 .badge-container{
@@ -39,15 +40,15 @@
     background-color: var(--dnd-color);   
 }
 .badge-offline{
-    bottom: 6px;
-    right: 1px;
+    bottom: 1px;
+    right: -1px;
     width: 15px;
     height: 15px;     
     background-color: var(--offline-color);
 }
 .badge-away{
-    bottom: 0.7rem;
-    right: 3px;
+    bottom: 4px;
+    right: 1px;
     width: 1.25rem;
     height: 1.25rem; 
     background-color: var(--away-color);    
@@ -58,10 +59,12 @@
     right: 2px;
     width: 1.75rem;
     height: 1.75rem;    
+    color: var(--white-color);
 }
 .badge-top{
     top: 0px;
     right: 4px;
     width: 1.75rem;
     height: 1.75rem; 
+    color: var(--white-color);
 }
