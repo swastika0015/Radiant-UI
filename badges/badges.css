@@ -1,0 +1,70 @@
+@import "../avatar/avatar.css";
+
+*{
+    --online-color: #0ed43c;
+    --dnd-color: #c20d1f;
+    --offline-color: #8f8f8f;
+    --away-color: #ecc61d;
+    --icon-badge-color: #0415ff;
+}
+
+.avatar{
+    border: none;
+}
+.badge{
+    border-radius: 50%;
+    position: absolute;
+    background-color: var(--icon-badge-color);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 3px solid var(--white-color);
+}
+
+.badge-container{
+    position: relative;
+}
+
+.badge-online{
+    bottom: 1.2rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--online-color);
+}
+.badge-dnd{
+    bottom: 1rem;
+    right: 6px;
+    width: 1.75rem;
+    height: 1.75rem;   
+    background-color: var(--dnd-color);   
+}
+.badge-offline{
+    bottom: 1px;
+    right: -1px;
+    width: 15px;
+    height: 15px;     
+    background-color: var(--offline-color);
+}
+.badge-away{
+    bottom: 4px;
+    right: 1px;
+    width: 1.25rem;
+    height: 1.25rem; 
+    background-color: var(--away-color);    
+}
+
+.badge-bottom{
+    bottom: 4px;
+    right: 2px;
+    width: 1.75rem;
+    height: 1.75rem;    
+    color: var(--white-color);
+}
+.badge-top{
+    top: 0px;
+    right: 4px;
+    width: 1.75rem;
+    height: 1.75rem; 
+    color: var(--white-color);
+}
