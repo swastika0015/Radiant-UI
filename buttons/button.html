@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+  
+    
+    <!--navbar-->
+    <div class="navbar">
+        <div class="nav-items">
+            <a class="nav-heading" href="../index.html"><img src="../images/logo.png"></a>
+        </div>
+    </div>
+
+    <!--Main section-->
+    <section>
+        <div class="container flex-flow-row">
+            <div class="sidebar flex-flow-column">
+                <h2 class="sidebar-heading"><a>Getting started</a></h2>
+                <a href="" class="component-items">Installation</a>
+                <a href="../avatar/avatar.html" class="component-items">Avatars</a>
+                <a href="../alerts/alerts.html" class="component-items">Alerts</a>
+                <a href="button.html" class="component-items">Buttons</a>
+                <a href="../cards/cards.html" class="component-items">Card</a>
+                <a href="../badges/badges.html" class="component-items">Badges</a>
+                <a href="../image/image.html" class="component-items">Image</a>
+                <a href="../input/input.html" class="component-items">Input</a>
+            </div>
+
+            <div class="button-container component-container">
+                <div class="component-details">
+                    <h2 class="component-heading">Buttons</h2>
+                    <p class="component-info">Radiant UI includes several predefined button styles, each serving its own semantic purpose, with a few extras thrown in for more control.</p>
+                </div>
+                <div class="button-examples flex-flow-row">
+                    <div><button class="button button-primary">Primary</button></div>
+                    <div><button class="button button-secondary">Secondary</button></div>
+                    <div><button class="button button-success">Success</button></div>
+                    <div><button class="button button-warning">Warning</button></div>
+                    <div><button class="button button-link">Click me</button></div>
+
+                </div>
+                <iframe class="iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%2865%2C38%2C79%2C1%29&t=material&wt=none&l=javascript&width=1000&ds=false&dsyoff=54px&dsblur=84px&wc=true&wa=false&pv=71px&ph=63px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=163%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253EPrimary%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%253E%253Cbutton%2520class%253D%2522button%2520button-secondary%2522%253ESecondary%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%253E%253Cbutton%2520class%253D%2522button%2520button-success%2522%253ESuccess%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%253E%253Cbutton%2520class%253D%2522button%2520button-warning%2522%253EWarning%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%253E%253Cbutton%2520class%253D%2522button%2520button-link%2522%253EClick%2520me%253C%252Fbutton%253E%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+    
+                <div class="component-details">
+                    <h1 class="component-heading">Buttons with icons</h1>
+                    <p class="component-info">Here are some examples of buttons with icons.</p>
+                </div>
+                    <div class="flex-flow-row button-examples">
+                    <div><button class="button button-icon button-primary"><i class="fa fa-shopping-cart fa-lg"></i>Cart</button></div>
+                    <div><button class="button button-icon button-secondary"><i class="fa fa-envelope fa-lg"></i>Messages</button></div>
+                    <div><button class="button button-icon button-success"><i class="fa fa-download fa-lg"></i>Download</button></div>
+                    <div><button class="button button-icon button-warning"><i class="fa fa-trash fa-lg"></i>Delete</button></div>
+
+                </div>
+                <iframe class="iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%2865%2C38%2C79%2C1%29&t=material&wt=none&l=css&width=1050&ds=false&dsyoff=54px&dsblur=84px&wc=true&wa=false&pv=36px&ph=89px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=163%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2520button-primary%2522%253E%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520fa-lg%2522%253C%252Fi%253ECart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2520button-secondary%2522%253E%253Ci%2520class%253D%2522fa%2520fa-envelope%2520fa-lg%2522%253E%253C%252Fi%253EMessages%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2520button-success%2522%253E%253Ci%2520class%253D%2522fa%2520fa-download%2520fa-lg%2522%253E%253C%252Fi%253EDownload%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2520button-warning%2522%253E%253Ci%2520class%253D%2522fa%2520fa-trash%2520fa-lg%2522%253E%253C%252Fi%253EDelete%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+
+            <div class="component-details">
+                <h1 class="component-heading">Floating Buttons</h1>
+                <p class="component-info"> Here some examples of floating buttons.</p>
+            </div>
+                <div class="flex-flow-row button-examples">
+                <div><button class="button-float button-plus"><i class="fa fa-plus"></i></button></div>
+                <div><button class="button-float button-plus-sm"><i class="fa fa-plus fa-2x"></i></button></div>
+                <div><button class="button-float button-warning"><i class="fa fa-trash fa-2x"></i></button></div>
+            </div>
+            <iframe class="iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%2865%2C38%2C79%2C1%29&t=material&wt=none&l=css&width=1050&ds=false&dsyoff=54px&dsblur=84px&wc=true&wa=false&pv=36px&ph=89px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=163%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2520button-primary%2522%253E%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520fa-lg%2522%253C%252Fi%253ECart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2520button-secondary%2522%253E%253Ci%2520class%253D%2522fa%2520fa-envelope%2520fa-lg%2522%253E%253C%252Fi%253EMessages%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2520button-success%2522%253E%253Ci%2520class%253D%2522fa%2520fa-download%2520fa-lg%2522%253E%253C%252Fi%253EDownload%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2520button-warning%2522%253E%253Ci%2520class%253D%2522fa%2520fa-trash%2520fa-lg%2522%253E%253C%252Fi%253EDelete%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+            
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+</html>
