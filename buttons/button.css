@@ -34,24 +34,47 @@
     background-color: var(--primary-color);
     font-size: 1rem;
 }
+.button:hover{
+    cursor: pointer;
+}
 
 .button-success{
     background-color: var(--success-color);
 }
+.button-success:hover{
+    background-color: #0c9e38;
+}
+
 .button-warning{
     background-color: var(--warning-color);
 }
+.button-warning:hover{
+    background-color: #a81212;
+}
+
 .button-primary{
     background-color: var(--secondary-color);
 }
+.button-primary:hover{
+    background-color: #646abd;
+}
+
 .button-secondary{
     background-color: var(--tertiary-color);
 }
+.button-secondary:hover{
+    background-color: #c26a8a;
+}
+
 .button-link{
     background-color: var(--white-color);
     color: var(--secondary-color);
     text-decoration: underline;
     border: 1px solid var(--secondary-color);
+}
+.button-link:hover{
+    background-color: var(--secondary-color);
+    color: var(--white-color);
 }
 
 .button-icon{
@@ -68,4 +91,9 @@
     height: 4rem;
     background-color: var(--primary-color);
     text-align: center;
+}
+.button-float:hover{
+    width: 4.5rem;
+    height: 4.5rem;   
+    cursor: pointer;   
 }
