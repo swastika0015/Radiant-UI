@@ -37,9 +37,10 @@
 
 /*components*/
 .component-heading{
-    font-size: 3rem;
-    font-weight: 100;
+    font-size: 2.5rem;
+    font-weight: 800;
 }
 .component-info{
     font-size: 1.25rem;
+    color: var(--grey-color);
 }
