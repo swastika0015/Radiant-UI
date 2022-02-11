@@ -30,6 +30,7 @@
 }
 .card-details{
     padding: 1rem;
+    gap: 0.5rem;
 }
 .price{
     font-weight: 600;
