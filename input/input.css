@@ -1,0 +1,55 @@
+:root{
+    --shadow-color: #b8b8b3d2;
+}
+.container{
+    padding: 1rem;
+    gap: 2rem;
+}
+.component-container{
+    padding: 2rem 4rem 2rem 2rem;
+}
+.component-details{
+    padding: 1rem;
+}
+
+.input-examples{
+    justify-content: center;
+}
+
+.input-container{
+    gap: 1rem;
+    box-shadow:  0 5px  5px var(--shadow-color), 0 6px 20px 0 var(--shadow-color);
+    padding: 2rem;
+}
+
+.input-box span{
+    color: red;
+}
+.input-box label{
+    padding: 2px;
+    font-size: 12px;
+}
+
+.input{
+    padding: 7px;
+    border-radius: 0.5rem;
+    border: 1px solid var(--secondary-color);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input-btn{
+    padding: 8px;
+    border-radius: 0.5rem;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    margin-top: 0.5rem;
+}
+.input-btn:hover{
+    color: var(--primary-color);
+    background-color: var(--white-color);
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+}
