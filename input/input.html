@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Inputs</title>
+</head>
+<body>
+  
+    
+    <!--navbar-->
+    <div class="navbar">
+        <div class="nav-items">
+            <a class="nav-heading" href="../index.html"><img src="../images/logo.png"></a>
+        </div>
+    </div>
+
+    <!--Main section-->
+    <section>
+        <div class="container flex-flow-row">
+            <div class="sidebar flex-flow-column">
+                <h2 class="sidebar-heading"><a>Getting started</a></h2>
+                <a href="" class="component-items">Installation</a>
+                <a href="../avatar/avatar.html" class="component-items">Avatars</a>
+                <a href="../alerts/alerts.html" class="component-items">Alerts</a>
+                <a href="../buttons/buttons.html" class="component-items">Buttons</a>
+                <a href="../cards/cards.html" class="component-items">Cards</a>
+                <a href="../badges/badges.html" class="component-items">Badges</a>
+                <a href="../image/image.html" class="component-items">Images</a>
+                <a href="input.html" class="component-items">Inputs</a>
+            </div>
+
+            <div class="card-container component-container">
+                <div class="component-details">
+                    <h2 class="component-heading">Inputs</h2>
+                    <p class="component-info">  Here's an example of simple form, where it takes two inputs, user's username and password. If password is wrong, it gives error!</p>
+                </div>
+                <div class="input-examples flex-flow-row">.
+                    <div class="input-container flex-flow-column">
+                        <div class="input-box">
+                            <label>Username<span>*</span></label>
+                            <input type="text" class="input" placeholder="Username">                      
+                        </div>
+                        <div class="input-box">
+                            <label>Password<span>*</span></label>
+                            <input type="password" class="input" placeholder="Password">
+                        </div>
+                        <div class="input-box">
+                            <span id="password-validation"></span>
+                            <button class="input-btn" onclick="validation()">Login</button>
+                            <script>
+                                    let validation = () => document.getElementById("password-validation").innerHTML = "Wrong password, try again!"; 
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <iframe class="iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%2865%2C38%2C79%2C1%29&t=material&wt=none&l=htmlmixed&width=904.75&ds=false&dsyoff=54px&dsblur=84px&wc=true&wa=false&pv=36px&ph=72px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=163%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%2520%2520%253Clabel%253EUsername%253Cspan%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Username%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%2520%2520%253Clabel%253EPassword%253Cspan%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Password%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520id%253D%2522password-validation%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522input-btn%2522%2520onclick%253D%2522validation%28%29%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cscript%253E%250A%2520%2520%2520%2520let%2520validation%2520%253D%2520%28%29%2520%253D%253E%2520document.getElementById%28%2522password-validation%2522%29.innerHTML%2520%253D%2520%2522Wrong%2520password%252C%2520try%2520again%21%2522%253B%2520%250A%2520%2520%2520%2520%253C%252Fscript%253E%250A%253C%252Fdiv%253E"
+               
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>    
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
