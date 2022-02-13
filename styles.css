@@ -1,0 +1,9 @@
+@import "alerts/alerts.css";
+@import "avatar/avatar.css";
+@import "badges/badges.css";
+@import "buttons/button.css";
+@import "cards/cards.css";
+@import "image/image.css";
+@import "input/input.css";
+
+@import "components.css";
