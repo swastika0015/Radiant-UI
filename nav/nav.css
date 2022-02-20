@@ -20,13 +20,16 @@
     width: 100%;
 }
 .nav-items{
-    padding: 0 3rem 0 3rem;
+    padding: 1rem 3rem 0 3rem;
     justify-content: space-between;
 }
 .nav-item{
     text-align: center;
     font-size: 1.15rem;
     margin-top: 3px;
+}
+.nav-item img{
+    margin-top: -9px;
 }
 
 .search-container input[type=text] {
@@ -59,11 +62,6 @@
     margin-right: -2.5rem;
 }
 
-.nav-item img{
-    padding: 0;
-    margin-top: -0.5rem;
-    margin: -0.5rem -1rem;
-}
 .nav-item i{
     color: var(--white-color);
 }
