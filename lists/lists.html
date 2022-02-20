@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lists.css">
+    <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Inputs</title>
+</head>
+<body>
+  
+    
+    <!--navbar-->
+    <div class="navbar">
+        <div class="nav-items">
+            <a class="nav-heading" href="../index.html"><img src="../images/logo.png"></a>
+        </div>
+    </div>
+
+    <!--Main section-->
+    <section>
+        <div class="container flex-flow-row">
+            <div class="sidebar flex-flow-column">
+                <h2 class="sidebar-heading"><a>Getting started</a></h2>
+                <a href="" class="component-items">Installation</a>
+                <a href="../avatar/avatar.html" class="component-items">Avatars</a>
+                <a href="../alerts/alerts.html" class="component-items">Alerts</a>
+                <a href="../buttons/buttons.html" class="component-items">Buttons</a>
+                <a href="../cards/cards.html" class="component-items">Cards</a>
+                <a href="../badges/badges.html" class="component-items">Badges</a>
+                <a href="../image/image.html" class="component-items">Images</a>
+                <a href="input.html" class="component-items">Inputs</a>
+                <a href="input.html" class="component-items">Lists</a>
+            </div>
+
+            <div class="card-container component-container">
+                <div class="component-details">
+                    <h2 class="component-heading">Lists</h2>
+                    <p class="component-info"> List groups are a flexible and powerful component for displaying a series of content. There are two kinds of list, Unordered and ordered.</p>
+                </div>
+                <div class="list-examples flex-flow-row">
+                    <div class="unorderd-list">
+                        <h4>An Unordered HTML List</h4>
+                        <ul>
+                        <li>Javascript</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        </ul>  
+                    </div>
+                    <div class="ordered-list">
+                        <h4>An Ordered HTML List</h4>
+                        <ol>
+                        <li>Javascript</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        </ol>
+                    </div> 
+                </div>          
+                <iframe class="iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%2865%2C38%2C79%2C1%29&t=vscode&wt=none&l=javascript&width=758&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=83px&ph=60px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=132%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522unorderd-list%2522%253E%250A%2520%2520%2520%2520%253Ch4%253EAn%2520Unordered%2520HTML%2520List%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%253Cli%253EJavascript%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EPython%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EJava%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%2520%2520%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522ordered-list%2522%253E%250A%2520%2520%2520%2520%253Ch4%253EAn%2520Ordered%2520HTML%2520List%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Col%253E%250A%2520%2520%2520%2520%253Cli%253EJavascript%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EPython%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EJava%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fol%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <div class="component-details">
+                    <h2 class="component-heading">Stacked List</h2>
+                    <p class="component-info">A nested list or a sublist is a list within a list. The trick to marking nested lists up correctly in HTML is to recognize that the sublist is actually a child of a list item and not of a list.</p>
+                </div>
+                <div class="list-examples stacked flex-flow-row">
+                    <ul>
+                        <li>Front-End Development</li>
+                        <li>Full-stack Development
+                            <ul>
+                                <li>Front-End Development
+                                    <ul>
+                                      <li>HTML/CSS</li>
+                                      <li>Javascript</li>
+                                    </ul>
+                                  </li>
+                                <li>Back-End Development</li>   
+                            </ul>                           
+                        </li>
+                      </ul>
+                </div>          
+                <iframe class="iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%2865%2C38%2C79%2C1%29&t=vscode&wt=none&l=javascript&width=758&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=83px&ph=60px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=132%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522unorderd-list%2522%253E%250A%2520%2520%2520%2520%253Ch4%253EAn%2520Unordered%2520HTML%2520List%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%253Cli%253EJavascript%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EPython%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EJava%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%2520%2520%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522ordered-list%2522%253E%250A%2520%2520%2520%2520%253Ch4%253EAn%2520Ordered%2520HTML%2520List%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Col%253E%250A%2520%2520%2520%2520%253Cli%253EJavascript%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EPython%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EJava%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fol%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div> 
+        </div>
+    </section>
+
+</body>
+</html>
