@@ -1,3 +1,4 @@
+
 .container{
     padding: 1rem;
     gap: 2rem;
@@ -15,6 +16,19 @@
     margin: 1rem;
     border: 2px solid var(--primary-color);
 }
-.stacked{
+.nested{
     justify-content: center;
+}
+.stacked-list{
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    margin: 1px;
+    justify-content: space-between;
+    width: 30rem;  
+}
+.stacked-list button{
+    border: none;
+    background-color: var(--white-color);
+    padding: 0.3rem 1rem;
+    cursor: pointer;
 }
