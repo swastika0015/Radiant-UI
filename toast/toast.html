@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="toast.css">
+    <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Inputs</title>
+</head>
+<body>
+  
+    
+    <!--navbar-->
+    <div class="navbar">
+        <div class="nav-items">
+            <a class="nav-heading" href="../index.html"><img src="../images/logo.png"></a>
+        </div>
+    </div>
+
+    <!--Main section-->
+    <section>
+        <div class="container flex-flow-row">
+            <div class="sidebar flex-flow-column">
+                <h2 class="sidebar-heading"><a>Getting started</a></h2>
+                <a href="" class="component-items">Installation</a>
+                <a href="../avatar/avatar.html" class="component-items">Avatars</a>
+                <a href="../alerts/alerts.html" class="component-items">Alerts</a>
+                <a href="../buttons/buttons.html" class="component-items">Buttons</a>
+                <a href="../cards/cards.html" class="component-items">Cards</a>
+                <a href="../badges/badges.html" class="component-items">Badges</a>
+                <a href="../image/image.html" class="component-items">Images</a>
+                <a href="../input/input.html" class="component-items">Inputs</a>
+                <a href="../lists/lists.html" class="component-items">Lists</a>
+                <a href="../typography/typography.html" class="component-items">Typography</a>
+                <a href="../nav/nav.html" class="component-items">Navigation</a>
+                <a href="../modal/modal.html" class="component-items">Modal</a>
+                <a href="../rating/rating.html" class="component-items">Rating</a>
+                <a href="../toast/toast.html" class="component-items">Toast</a>
+                <a href="../grid/grid.html" class="component-items">Grid</a>
+            </div>
+
+            <div class="card-container component-container">
+                <div class="component-details">
+                    <h2 class="component-heading">Toast</h2>
+                    <p class="component-info"> Toasts are built with HTML, CSS, and JavaScript. They are positioned over everything else in the document and remove scroll from the <body> so that modal content scrolls instead.
+                    </p>
+                </div>
+                <div class="input-examples flex-flow-row">.    
+                    <button id="myBtn"  class="button button-primary">Open Toast</button>
+                    <div id="myToast">
+                        <p class="toast">Something went wrongm try again :/</p>
+                    </div>
+                    <script src="toast.js"></script>
+                </div>
+
+                <p class="iframe-text">HTML code: </p>
+                <iframe class="iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%2865%2C38%2C79%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=832&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=80px&ph=83px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%250A%253Cbutton%2520id%253D%2522myBtn%2522%2520class%253D%2522button%2520button-primary%2522%253E%250A%2520%2520Open%2520Toast%250A%253C%252Fbutton%253E%250A%253Cdiv%2520id%253D%2522myToast%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522toast%2522%253ESomething%2520went%2520wrongm%2520try%2520again%2520%253A%252F%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%250A" 
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <p class="iframe-text">Javacript code: </p>
+                <iframe class="iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%2865%2C38%2C79%2C1%29&t=blackboard&wt=none&l=javascript&width=876.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=80px&ph=83px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%250Avar%2520toast%2520%253D%2520document.getElementById%28%2522myToast%2522%29%253B%250Avar%2520btn%2520%253D%2520document.getElementById%28%2522myBtn%2522%29%253B%250A%250A%250Abtn.onclick%2520%253D%2520%2520function%2520getToast%28%29%2520%257B%250A%2520%2520var%2520x%2520%253D%2520document.getElementById%28%2522myToast%2522%29%253B%250A%2520%2520toast.style.visibility%2520%253D%2520%2522visible%2522%250A%250A%2520%2520setTimeout%28%2520%28%29%2520%253D%253E%2520%257B%2520toast.style.visibility%2520%253D%2520%2522hidden%2522%257D%252C%25203000%29%253B%250A%257D%250A%250A"              
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        Made with 💜 by Swastika:)
+    </footer>
+
+</body>
+</html>

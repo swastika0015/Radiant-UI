@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Inputs</title>
+</head>
+<body>
+  
+    
+    <!--navbar-->
+    <div class="navbar">
+        <div class="nav-items">
+            <a class="nav-heading" href="../index.html"><img src="../images/logo.png"></a>
+        </div>
+    </div>
+
+    <!--Main section-->
+    <section>
+        <div class="container flex-flow-row">
+            <div class="sidebar flex-flow-column">
+                <h2 class="sidebar-heading"><a>Getting started</a></h2>
+                <a href="" class="component-items">Installation</a>
+                <a href="../avatar/avatar.html" class="component-items">Avatars</a>
+                <a href="../alerts/alerts.html" class="component-items">Alerts</a>
+                <a href="../buttons/buttons.html" class="component-items">Buttons</a>
+                <a href="../cards/cards.html" class="component-items">Cards</a>
+                <a href="../badges/badges.html" class="component-items">Badges</a>
+                <a href="../image/image.html" class="component-items">Images</a>
+                <a href="../input/input.html" class="component-items">Inputs</a>
+                <a href="../lists/lists.html" class="component-items">Lists</a>
+                <a href="../typography/typography.html" class="component-items">Typography</a>
+                <a href="../nav/nav.html" class="component-items">Navigation</a>
+                <a href="#" class="component-items">Modal</a>
+                <a href="../rating/rating.html" class="component-items">Rating</a>
+                <a href="../toast/toast.html" class="component-items">Toast</a>
+                <a href="../grid/grid.html" class="component-items">Grid</a>
+            </div>
+
+            <div class="card-container component-container">
+                <div class="component-details">
+                    <h2 class="component-heading">Modal</h2>
+                    <p class="component-info"> Modals are built with HTML, CSS, and JavaScript. They are positioned over everything else in the document and remove scroll from the <body> so that modal content scrolls instead.
+                       </p>
+                </div>
+                <div class="input-examples flex-flow-row">.
+                   
+                    <button id="myBtn"  class="button button-primary">Open Modal</button>
+                    <!-- modal -->
+                    <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <h2 class="modal-heading">MODAL</h2>
+                        <p class="modal-text">Woohoo, you're reading this text in a modal!</p>
+                        <span class=" close modal-dismiss"><i class="fa fa-times fa-2x"></i></span>
+                    </div>
+                    </div>
+
+                    <script src="modal.js"></script>
+                </div>
+
+
+                 <p class="iframe-text">HTML code: </p>
+                <iframe class="iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%2865%2C38%2C79%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=870.75&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=80px&ph=83px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520id%253D%2522myBtn%2522%2520class%253D%2522button%2520button-primary%2522%253EOpen%2520Modal%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520id%253D%2522myModal%2522%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522modal-heading%2522%253EMODAL%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522modal-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Woohoo%252C%2520you%27re%2520reading%2520this%2520text%2520in%2520a%2520modal%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522%2520close%2520modal-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"              
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+
+              <p class="iframe-text">Javacript code: </p>
+
+              <iframe class="iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%2865%2C38%2C79%2C1%29&t=blackboard&wt=none&l=javascript&width=876.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=80px&ph=83px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=var%2520modal%2520%253D%2520document.getElementById%28%2522myModal%2522%29%253B%250Avar%2520btn%2520%253D%2520document.getElementById%28%2522myBtn%2522%29%253B%250Avar%2520span%2520%253D%2520document.getElementsByClassName%28%2522close%2522%29%255B0%255D%253B%250A%250Abtn.onclick%2520%253D%2520function%28%29%2520%257B%250A%2520%2520modal.style.display%2520%253D%2520%2522block%2522%253B%250A%257D%250A%250Aspan.onclick%2520%253D%2520function%28%29%2520%257B%250A%2520%2520modal.style.display%2520%253D%2520%2522none%2522%253B%250A%257D%250A%250Awindow.onclick%2520%253D%2520function%28event%29%2520%257B%250A%2520%2520if%2520%28event.target%2520%253D%253D%2520modal%29%2520%257B%250A%2520%2520%2520%2520modal.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%257D%250A%257D"
+                
+                sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        Made with 💜 by Swastika:)
+    </footer>
+
+</body>
+</html>
